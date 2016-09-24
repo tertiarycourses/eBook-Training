@@ -1,0 +1,740 @@
+/* CSS Reset
+Copyright (c) 2010, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 3.3.0
+build: 3167
+*/
+
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}
+
+
+
+/* IMAGE POSITIONS */ 
+
+div.fs {
+	position: relative;
+	height: 540px;
+	width: 1080px;
+}
+
+div.imagefull {
+	position: absolute;
+	background-repeat: no-repeat;
+	height: 540px;
+	width: 1080px;
+	margin: 0;
+	top: 0px;
+	left: 0px;
+	background-size: 100% auto;
+	z-index: -1;
+}
+
+div.imageleft {
+	position: absolute;
+	background-repeat: no-repeat;
+	height: 540px;
+	width: 540px; 
+	margin-top: 44px;
+	z-index: -1;
+}
+
+div.imageright {
+	position: absolute;
+	background-repeat: no-repeat;
+	height: 540px;
+	width: 540px; 
+	margin-left: 240px;
+	z-index: -1;
+}
+
+.spotArt {
+	width: 90%;
+	height: auto;
+	display: inline-block;
+	text-align: center;
+	margin: 0;
+}
+
+.cheep1 {
+	width: 25%;
+	height: auto;
+}
+
+.cheep2 {
+	width: 40%;
+	height: auto;
+}
+
+.curve {
+	width: 50%;
+	height: auto;
+}
+
+.henRat {
+	width: 35%;
+	height: auto;
+	display: inline-block;
+	text-align: center;
+	margin-left: 15%;
+}
+
+
+/* BO0K-WIDE TEXT DESIGN */
+
+/* FONTS-FROM googlefonts, EBOOK LICENSE INCLUDED; using generic name; actual font name in the src: line and in font folder*/
+
+@font-face {
+	font-family: "roman";
+	font-style: normal;
+	font-weight: normal;
+	src: url(fonts/JosefinSlab-SemiBold.ttf);
+}
+
+@font-face {
+	font-family: "display";
+	font-style: normal;
+	font-weight: normal;
+	src: url(fonts/JosefinSlab-Bold.ttf);
+}
+
+
+/* TEXT SPECS in BODY TAG */
+
+body
+{
+	font-size: 130%;
+	line-height: 130%;
+    font-family: "roman";
+	text-align: left;
+	text-indent: 0em;
+}
+
+.fs div.txt {
+	position: absolute;
+}
+
+/* Default Formatting for copyright notices. Use this for Kindle e-Ink devices like Paperwhite and Voyage. If you need different attributes for Kindle Fires, use Media Queries. e-ink devices should use default formatting; apply media query to Fire devices. See Kindle Publishing Guidelines. */
+
+.copyright {
+	font-size: 60%;
+	line-height: 110%;
+	color: black;
+	margin-top: .5em;
+}
+
+/* MEDIA QUERY for Kindle Fire (All) Formatting. Use this to target all Kindle Fires. Use Media Query to target Fires, not eink devices--Paperwhite, Voyage,, etc. NOTE: Media Queries don't take effect on Kindle Previewer. Check on devices.*/
+@media amzn-kf8 and (device-aspect-ratio:1280/800) {
+ 
+ .copyright {
+	color: #CBC0C0;
+ } 
+ }
+
+.display, .displayCheep, .displayChuck {
+	font-size: 110%;
+    font-family: "display";
+	line-height: .80em;
+	color: rgb(219,17,36);
+}
+
+.displayCheep {
+	color: white;
+}
+
+.displayChuck {
+	color: rgb(219,17,36);
+}
+
+
+/* TITLE PAGE TEXT*/ 
+
+.title, .retold, .author {
+	margin: 0;
+}
+
+.title {
+	font-family: "display";
+	font-size: 240%;
+	line-height: 105%;
+	color: rgb(219,17,36);
+}
+
+.retold, .author {
+	font-family: "display";
+	font-size: 110%;
+	line-height: 120%;
+	color: rgb(219,17,36);
+	text-align: center;
+}
+
+.author {
+	font-size: 130%;
+}
+
+/* UI REGION MAGNIFICATION — POPUP; displayed around zoomed text */ 
+
+div.target-mag { 
+	position: absolute; 
+	display:none; 
+	font-size: 140%; 
+	line-height: 130%; 
+	border: 3px solid  rgb(219,17,36);
+	border-radius: 10px; 
+	padding: 10px; 
+	background-color: white;
+}
+
+div.target-magCopyright { 
+	position: absolute; 
+	display:none; 
+	font-size: 90%; 
+	line-height: 100%; 
+	border: 3px solid  white;
+	border-radius: 10px; 
+	padding: 10px; 
+	background-color: white;
+}
+
+div.target-magYellow { 
+	position: absolute; 
+	display:none; 
+	font-size: 140%; 
+	line-height: 130%; 
+	border: 3px solid  white;
+	border-radius: 10px; 
+	padding: 10px; 
+	background-color: #f9d10f;
+}
+
+div.target-magCheep { 
+	position: absolute; 
+	display:none; 
+	font-size: 140%; 
+	line-height: 130%; 
+	border: 3px solid  white;
+	border-radius: 10px; 
+	padding: 10px; 
+	background-color: rgb(219,17,36);
+}
+
+
+/* MISCELLANEOUS POSITIONING AND SIZING */ 
+
+.above {
+	margin-top: .75em;
+}
+
+.below {
+	margin-bottom: .75em;
+}
+
+.center {
+	text-indent: 0em;
+	text-align: center;
+}
+
+.left {
+	text-indent: 0em;
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.size {
+	font-size: 100%;
+}
+
+
+/* TEXT BLOCK POSITIONING USING PERCENTAGES*/
+
+/* Page 01 */
+.fs1-txt1 {
+	top: 6%;
+	left: 54%;
+	width: 42%;
+}
+
+/* Page 2-3 */
+.fs2-txt1 {
+	top: 63%;
+	left: 5%;
+	width: 40%;
+}
+
+#fs2-txt1-magTarget {
+	top: 50%;
+	left: 5%;
+	width: 43%;
+	height: auto;
+}
+
+.fs2-txt2 {
+	top: 5%;
+	left: 57%;
+	width: 40%;
+}
+
+#fs2-txt2-magTarget {
+	top: 1%;
+	left: 50%;
+	width: 43%;
+	height: auto;
+}
+
+/* Page 4-5 */
+.fs4-txt1 {
+	top: 5%;
+	left: 11%;
+	width: 33%;
+}
+
+#fs4-txt1-magTarget {
+	top: 1%;
+	left: 3%;
+	width: 44%;
+}
+
+.fs4-curve {
+	top: 30%;
+	left: 5%;
+	width: 33%;
+}
+
+#fs4-curve-magTarget {
+	top: 30%;
+	left: 13%;
+}
+
+.fs4-cheep1 {
+	top: 2%;
+	left: 40%;
+	width: 33%;
+}
+
+#fs4-cheep1-magTarget {
+	top: 2%;
+	left: 52%;
+}
+
+.fs4-cheep2 {
+	top: 11%;
+	left: 47%;
+	width: 33%;
+}
+
+#fs4-cheep2-magTarget {
+	top: 16%;
+	left: 57%;
+}
+
+.fs4-txt2 {
+	top: 5%;
+	left: 69%;
+	width: 24%;
+}
+
+#fs4-txt2-magTarget {
+	top: 1%;
+	left: 69%;
+}
+
+.fs4-txt3 {
+	top: 38%;
+	left: 55%;
+	width: 24%;
+	
+}
+
+#fs4-txt3-magTarget {
+	top: 37%;
+	left: 51%;
+}
+
+.fs4-txt4 {
+	top: 53%;
+	left: 80%;
+}
+
+#fs4-txt4-magTarget {
+	top: 43%;
+	left: 79%;
+	width: 17%;
+}
+
+
+/* Page 6-7 */
+.fs6-txt1 {
+ top: 22%;
+ left: 18.5%;
+ width: 14%;
+}
+
+#fs6-txt1-magTarget {
+	top: 20%;
+	left: 18%;
+	width: 16%;
+}
+
+.fs6-txt2 {
+	top: 54%;
+ 	left: 60%;
+}
+
+#fs6-txt2-magTarget {
+	top: 45%;
+	left: 52%;
+	width: 30%;
+}
+
+/* Page 8-9 */
+
+.fs8-txt1 {
+	top: 32%;
+ 	left: 50%;
+	width: 46%;
+}
+
+#fs8-txt1-magTarget {
+	top: 10%;
+	left: 48%;
+	width: 44%;
+}
+
+
+/* THE FOLLOWING POSITIONING CODE IS READY TO USE WHEN PAGES ARE ADDED TO A PROJECT */
+
+/* Page 10-11 */
+.fs10-txt1 {
+top: 13%;
+ left: 7%;
+}
+
+#fs10-txt1-magTarget {
+	top: 7%;
+	left: 0%;
+}
+.fs10-txt2 {
+	 top: 74%;
+ left: 58%;
+}
+
+#fs10-txt2-magTarget {
+	top: 70%;
+	left: 53%;
+}
+
+/* Page 12-13 */
+.fs12-txt1 {
+top: 11%;
+ left: 7%;
+}
+
+#fs12-txt1-magTarget {
+	top: 7%;
+	left: 0%;
+}
+
+.fs12-txt2 {
+ top: 11%;
+ left: 58%;
+}
+
+#fs12-txt2-magTarget {
+	top: 7%;
+	left: 53%;
+}
+
+/* Page 14-15 */
+.fs14-txt1 {
+	 top: 78%;
+ left: 7%;
+}
+
+#fs14-txt1-magTarget {
+	top: 75%;
+	left: 0%;
+}
+
+.fs14-txt2 {
+	 top: 78%;
+ left: 56%;
+}
+
+#fs14-txt2-magTarget {
+	top: 76%;
+	left: 54%;
+}
+
+/* Page 16-17 */
+.fs16-txt1 {
+ top: 13%;
+ left: 59%;
+}
+
+#fs16-txt1-magTarget {
+	top: 8%;
+	left: 50%;
+	width: 480px;
+}
+
+/* Page 18-19 */
+.fs18-txt1 {
+ top: 78%;
+ left: 7%;
+}
+
+#fs18-txt1-magTarget {
+	top: 74%;
+	left: 2%;
+}
+
+.fs18-txt2 {
+	 top: 78%;
+ left: 56.5%;
+}
+
+#fs18-txt2-magTarget {
+	top: 74%;
+	left: 53%;
+}
+
+/* Page 20-21 */
+.fs20-txt1 {
+	 top: 68%;
+ left: 5%;
+}
+
+#fs20-txt1-magTarget {
+	top: 66%;
+	left: 3%;
+	width: 420px;
+}
+
+.fs20-txt2 {
+ top: 19%;
+ left: 59%;
+}
+
+#fs20-txt2-magTarget {
+	top: 11%;
+	left: 53%;
+}
+
+/* Page 22-23 */
+.fs22-txt1 {
+	top: 47%;
+	left: 6%;
+}
+
+#fs22-txt1-magTarget {
+	top: 42.5%;
+	left: 6%;
+	width: 370px;
+}
+
+.fs22-txt2 {
+	top: 14%;
+	left: 53%;
+}
+
+#fs22-txt2-magTarget {
+	top: 9%;
+	left: 45.75%;
+}
+
+.fs22-txt3 {
+	top: 75%;
+	left: 77%;
+}
+
+#fs22-txt3-magTarget {
+	top: 73%;
+	left: 72%;
+	width: 250px;
+}
+
+/* Page 24-25 */
+.fs24-txt1 {
+	top: 80%;
+	left: 6%;
+}
+
+#fs24-txt1-magTarget {
+	top: 77%;
+	left: 0%;
+}
+
+.fs24-txt2 {
+	top: 67%;
+	left: 58%;
+}
+
+#fs24-txt2-magTarget {
+	top: 64%;
+	left: 52%;
+}
+
+/* Page 26-27*/
+.fs26-txt1 {
+	top: 14%;
+	left: 8%;
+}
+
+#fs26-txt1-magTarget {
+	top: 10%;
+	left: 0%;
+}
+
+.fs26-txt2 {
+	top: 14%;
+	left: 55%;
+}
+
+#fs26-txt2-magTarget {
+	top: 10%;
+	left: 50%;
+}
+
+/* Page 28-29 */
+.fs28-txt1 {
+	top: 70%;
+	left: 6%;
+}
+
+#fs28-txt1-magTarget {
+	top: 66%;
+	left: 4.5%;
+	width: 400px;
+}
+
+.fs28-txt2 {
+	top: 12%;
+	left: 58%;
+}
+
+#fs28-txt2-magTarget {
+	top: 9%;
+	left: 51%;
+}
+
+/* Page 30-31 */
+.fs30-txt1 {
+	top: 74%;
+	left: 53%;
+}
+
+#fs30-txt1-magTarget {
+	top: 68%;
+	left: 49%;
+	width: 450px;
+}
+
+/* Page 32 */
+.fs32-txt1 {
+	top: 75%;
+	left: 9%;
+}
+
+#fs32-txt1-magTarget {
+	top: 68%;
+	left: 3%;
+	width: 420px;
+}
+
+
+/* BACKGROUND IMAGE PLACEMENT: with template, this shouldn't change except to add elements */
+
+#fs1-img
+{
+	background-image: url("images/01.jpg");
+}
+
+#fs2-img
+{
+	background-image: url("images/02.jpg");
+}
+
+#fs4-img
+{
+	background-image: url("images/04.jpg");
+}
+#fs6-img
+{
+	background-image: url("images/06.jpg");
+}
+#fs8-img
+{
+	background-image: url("images/08.jpg");
+}
+
+/* THESE images are ready to be used when more pages are added to a project. You must comment them out. Otherwise KindleGen will give Warnings that files are not found in the package.
+
+#fs10-img
+{
+	background-image: url("images/10.jpg");
+}
+#fs12-img
+{
+	background-image: url("images/12.jpg");
+}
+
+#fs14-img
+{
+	background-image: url("images/14.jpg");
+}
+
+
+#fs16-img
+{
+	background-image: url("images/16.jpg");
+}
+
+#fs18-img
+{
+	background-image: url("images/18.jpg");
+}
+
+#fs20-img
+{
+	background-image: url("images/20.jpg");
+}
+
+#fs22-img
+{
+	background-image: url("images/22.jpg");
+}
+
+#fs24-img
+{
+	background-image: url("images/24.jpg");
+}
+
+#fs26-img
+{
+	background-image: url("images/26.jpg");
+}
+
+#fs28-img
+{
+	background-image: url("images/28.jpg");
+}
+
+#fs30-img
+{
+	background-image: url("images/30.jpg");
+}
+
+#fs32-img
+{
+	background-image: url("images/032.jpg");
+}
+
+#backcover-img
+{
+	background-image: url("images/backcover.jpg");
+}
+
+*/

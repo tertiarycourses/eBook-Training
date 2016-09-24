@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>/
+
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="dtb:uid">
+
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+
+<!-- Kindle-specific Fixed Layout, Region Magnification & Children's Content -->
+	<meta property="rendition:layout">pre-paginated</meta>		
+	<meta name="original-resolution" content="1080x540"/>
+	<meta property="rendition:orientation">landscape</meta>	
+	<!-- values are landscape, portrait, auto; default is auto -->			
+	<meta name="RegionMagnification" content="true"/>
+	<meta name="primary-writing-mode" content="horizontal-lr"/>	
+	<meta name="book-type" content="children"/>
+	<!-- values are children, comic, none; use 'none', or leave book-type out altogether, if you want text to be live (searchable, definable, hyperlinks) -->			
+		
+	<dc-metadata xmlns:dc="http://purl.org/metadata/dublin_core" xmlns:oebpackage="http://openbook.org/namespaces/oeb-package/1.0/"> 
+		
+	<dc:title>The Little Red Hen</dc:title>
+	<dc:creator opf:role="aut">Florence White Williams</dc:creator>
+	<dc:creator opf:role="ill">Florence White Williams</dc:creator>
+	<dc:publisher>The Saalfield Publishing Company</dc:publisher>
+	<dc:rights>Copyright 2015. All rights reserved.</dc:rights>
+
+	<dc:language>en-US</dc:language>
+	<dc:date opf:event="creation">2015</dc:date>
+	<meta property="dcterms:modified">2015-10-09T17:19:37Z</meta>
+			
+	</dc-metadata>
+	
+</metadata>
+
+<manifest>
+	
+	<!-- COVER IMAGE must use  id="cover" so Kindles can locate it -->
+		<item id="cover" media-type="image/jpeg" href="images/cover.jpg" properties="coverimage"/>
+
+	<!-- NAVIGATION -->
+		<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+	
+	<!-- CSS; if you use more than one, list all here. Make sure to give each a distinct id: id="stylesheet02" id ="stylesheet04" etc. -->
+		<item id="stylesheet" href="style.css" media-type="text/css"/>
+		
+	<!-- XHTML PAGES -->
+		<item id="page01" href="page01.xhtml" media-type="application/xhtml+xml"/>
+		<item id="page02" href="page0203.xhtml" media-type="application/xhtml+xml"/>
+		<item id="page04" href="page0405.xhtml" media-type="application/xhtml+xml"/>
+		<item id="page06" href="page0607.xhtml" media-type="application/xhtml+xml"/>
+		<item id="page08" href="page0809.xhtml" media-type="application/xhtml+xml"/>
+        
+	<!-- XHTML PAGES NOT USED IN THIS BOOK, BUT ARE READY TO INCLUDE IN OTHER PROJECTS
+		<item id="page10" href="page1011.xhtml" media-type="application/xhtml+xml"/>
+		<item id="page12" href="page1213.xhtml" media-type="application/xhtml+xml"/>
+        <item id="page14" href="page1415.xhtml" media-type="application/xhtml+xml"/>
+		<item id="page16" href="page1617.xhtml" media-type="application/xhtml+xml"/>
+		<item id="page18" href="page1819.xhtml" media-type="application/xhtml+xml"/>
+		<item id="page20" href="page2021.xhtml" media-type="application/xhtml+xml"/>
+		<item id="page22" href="page2223.xhtml" media-type="application/xhtml+xml"/>
+		<item id="page24" href="page2425.xhtml" media-type="application/xhtml+xml"/>
+		<item id="page26" href="page2627.xhtml" media-type="application/xhtml+xml"/>
+		<item id="page28" href="page2829.xhtml" media-type="application/xhtml+xml"/>
+		<item id="page30" href="page3031.xhtml" media-type="application/xhtml+xml"/>
+		<item id="page32" href="page032.xhtml" media-type="application/xhtml+xml"/>
+		<item id="backcover" href="backcover.xhtml" media-type="application/xhtml+xml"/>
+	-->
+
+	<!-- FONTS -->
+		<item id="roman" href="fonts/JosefinSlab-SemiBold.ttf" media-type="application/x-font-ttf"/>
+		<item id="display" href="fonts/JosefinSlab-Bold.ttf" media-type="application/x-font-ttf"/>
+		
+	<!-- FONT LICENSES
+		JOSEFIN SLAB: Copyright (c) 2010, Santiago Orozco (hi@typemade.mx)
+		This Font Software is licensed under the SIL Open Font License, Version 1.1.
+		This license is copied below, and is also available with a FAQ at:
+		http://scripts.sil.org/OFL
+		Downloaded from Google Fonts
+	-->
+
+	<!-- IMAGES -->
+		<item id="cover-image" href="images/cover.jpg" media-type="image/jpeg" properties="cover-image"/>	
+		<!-- THIS file name IS REQUIRED; always name cover image: cover.jpg -->
+
+		<item id="img01" href="images/01.jpg" media-type="image/jpeg"/> 
+		<item id="img03" href="images/02.jpg" media-type="image/jpeg"/>
+        <item id="img0405" href="images/04.jpg" media-type="image/jpeg"/>
+        <item id="cheep1" href="images/cheep1.jpg" media-type="image/jpeg"/>
+        <item id="cheep2" href="images/cheep2.jpg" media-type="image/jpeg"/>
+        <item id="curve" href="images/curve.jpg" media-type="image/jpeg"/>
+
+		<item id="img0607" href="images/06.jpg" media-type="image/jpeg"/>
+		<item id="img0809" href="images/08.jpg" media-type="image/jpeg"/>
+		
+	<!-- IMAGES NOT USED IN THIS BOOK, BUT ARE READY TO INCLUDE IN OTHER PROJECTS
+		<item id="img1011" href="images/10.jpg" media-type="image/jpeg"/>
+		<item id="img1213" href="images/12.jpg" media-type="image/jpeg"/>
+		<item id="img1415" href="images/14.jpg" media-type="image/jpeg"/>
+		<item id="img1617" href="images/16.jpg" media-type="image/jpeg"/>
+		<item id="img1819" href="images/18.jpg" media-type="image/jpeg"/>
+		<item id="img2021" href="images/20.jpg" media-type="image/jpeg"/>
+		<item id="img2223" href="images/22.jpg" media-type="image/jpeg"/>
+		<item id="img2425" href="images/24.jpg" media-type="image/jpeg"/>
+		<item id="img2627" href="images/26.jpg" media-type="image/jpeg"/>
+		<item id="img2829" href="images/28.jpg" media-type="image/jpeg"/>
+		<item id="img3031" href="images/30.jpg" media-type="image/jpeg"/>
+		<item id="img32" href="images/032.jpg" media-type="image/jpeg"/>
+		<item id="img32back" href="images/32back.jpg" media-type="image/jpeg"/>
+	-->
+
+</manifest>
+
+	<!-- SPINE: add new pages as needed; follow format below, using id's assigned above in XHTML pages section" for each new page-->
+
+<spine toc="ncx">
+		<itemref idref="page01"/>
+        <itemref idref="page02"/>
+		<itemref idref="page04"/>
+		<itemref idref="page06"/>
+		<itemref idref="page08"/>
+</spine>
+	
+</package>
