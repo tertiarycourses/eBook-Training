@@ -4,56 +4,62 @@ The course outline can be found in
 
 https://www.tertiarycourses.com.sg/ebook-publishing-and-distribution-essential-training.html
 
-<b>Module 1. eBook Format Overview</b>
-
-eBook Formats
-What is EPUB?
-eBook Readers 
-Reflowable vs Fixed Layout EPUB
-Kindle Formats
-What is DRM?
-Kindle Previewer, KindleGen, Kindle Kids Book Creator
-iBook Author
-
-Module 2. Convert Word to Reflowable EPUB
-Best Practices 
-Clean Up Word for EPUB
-Front Page
-Graphics Format
-Adding Images
-Adding Bookmarks & Hyperlinks
-Footnote
-Table
-Export Word to Filtered HTML
-Cover
-
-Module 3. Edit EPUB on Calibre
-Calibre Interface
-Convert eBook to ePUB and Kindle formats
-Add a Cover
-Edit Meta Data
-Edit ePUB
-Preview eBook
-Debug ePUB issues
-ePUB Validator
-
-Module 4. Fixed Layout EPUB with InDesign (Optional)
-Overview of InDesign
-Export Fixed Layout EPUB
-Module 5. eBook Publishing & Distribution
-
-Option for eBook Distribution
-Direct eBook Retailers
-eBook Distributors
-Publishing to Amazon
-Publishing to Nook Press
-Publishing to Kobo
-
-Module 6. eBook Marketing
-Social Media
-Website & Blog
-Amazon Author Central
-Keyword Research
-Google Alert
-Google Trend
-Publishing to Apple iBookStore
+<p><strong>Module 1. eBook Format Overview</strong></p>
+<ul>
+<li>eBook Formats</li>
+<li>What is EPUB?</li>
+<li>eBook Readers&nbsp;</li>
+<li>Reflowable vs Fixed Layout EPUB</li>
+<li>Kindle Formats</li>
+<li>What is DRM?</li>
+<li>Kindle Previewer, KindleGen, Kindle Kids Book Creator</li>
+<li>iBook Author</li>
+</ul>
+<p><strong>Module 2. Convert Word to Reflowable EPUB</strong></p>
+<ul>
+<li>Best Practices&nbsp;</li>
+<li>Clean Up Word for EPUB</li>
+<li>Front Page</li>
+<li>Graphics Format</li>
+<li>Adding Images</li>
+<li>Adding Bookmarks &amp; Hyperlinks</li>
+<li>Footnote</li>
+<li>Table</li>
+<li>Export Word to Filtered HTML</li>
+<li>Cover</li>
+</ul>
+<p><strong>Module 3. Edit EPUB on Calibre</strong></p>
+<ul>
+<li>Calibre Interface</li>
+<li>Convert eBook to ePUB and Kindle formats</li>
+<li>Add a Cover</li>
+<li>Edit Meta Data</li>
+<li>Edit ePUB</li>
+<li>Preview eBook</li>
+<li>Debug ePUB issues</li>
+<li>ePUB Validator</li>
+</ul>
+<p><strong>Module 4. Fixed Layout EPUB with InDesign (Optional)</strong></p>
+<ul>
+<li>Overview of InDesign</li>
+<li>Export Fixed Layout EPUB</li>
+</ul>
+<p><strong>Module 5. eBook Publishing &amp; Distribution</strong></p>
+<ul>
+<li>Option for eBook Distribution</li>
+<li>Direct eBook Retailers</li>
+<li>eBook Distributors</li>
+<li>Publishing to Amazon</li>
+<li>Publishing to Nook Press</li>
+<li>Publishing to Kobo</li>
+</ul>
+<p><strong>Module 6. eBook Marketing</strong></p>
+<ul>
+<li>Social Media</li>
+<li>Website &amp; Blog</li>
+<li>Amazon Author Central</li>
+<li>Keyword Research</li>
+<li>Google Alert</li>
+<li>Google Trend</li>
+<li>Publishing to Apple iBookStore</li>
+</ul>
