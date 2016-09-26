@@ -1,4 +1,8 @@
-This is the exercise files used for <a href="https://www.tertiarycourses.com.sg/ebook-publishing-and-distribution-essential-training.html">eBook Publishing and Distribution Essential Training</a> course by <a href="https://www.tertiarycourses.com.sg/">Tertiary Infotech Pte. Ltd.</a>
+
+# Ebook Publishing and Distribution Essential Training
+## by [Tertiary Infotech Pte. Ltd] (https://www.tertiarycourses.com.sg/)
+
+These are the exercise files used for [Ebook Publishing and Distribution Essential Training](https://www.tertiarycourses.com.sg/ebook-publishing-and-distribution-essential-training.html) course. 
 
 The course outline can be found in 
 
