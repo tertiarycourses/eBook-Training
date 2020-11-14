@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<package version="3.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<meta name="generator" content="Adobe InDesign 12.1" />
+		<meta name="cover" content="x1.png" />
+		<meta property="ibooks:specified-fonts">true</meta>
+		<dc:title>Guide to English Cottage Gardens</dc:title>
+		<dc:creator>Leaf and Mortar</dc:creator>
+		<dc:publisher>Leaf and Mortar</dc:publisher>
+		<dc:date>July 1, 2017</dc:date>
+		<dc:language>en-US</dc:language>
+		<meta property="dcterms:modified">2017-07-24T17:34:21Z</meta>
+		<dc:identifier id="bookid">urn:uuid:881E0AA9-5A30-4F08-8F44-AE3845613C0D</dc:identifier>
+	</metadata>
+	<manifest>
+		<item id="cover" href="cover.xhtml" media-type="application/xhtml+xml" />
+		<item id="ECGardens" href="ECGardens.xhtml" media-type="application/xhtml+xml" />
+		<item id="ECGardens-1" href="ECGardens-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="ECGardens-2" href="ECGardens-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="ECGardens-3" href="ECGardens-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="ECGardens-4" href="ECGardens-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="ECGardens-5" href="ECGardens-5.xhtml" media-type="application/xhtml+xml" />
+		<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+		<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav" />
+		<item id="idGeneratedStyles.css" href="css/idGeneratedStyles.css" media-type="text/css" />
+		<item id="Coquette-Light.otf" href="font/Coquette-Light.otf" media-type="application/vnd.ms-opentype" />
+		<item id="FilsonSoft-Light.otf" href="font/FilsonSoft-Light.otf" media-type="application/vnd.ms-opentype" />
+		<item id="FilsonSoftBook.otf" href="font/FilsonSoftBook.otf" media-type="application/vnd.ms-opentype" />
+		<item id="FilsonSoftLight-Italic.otf" href="font/FilsonSoftLight-Italic.otf" media-type="application/vnd.ms-opentype" />
+		<item id="FilsonSoftRegular.otf" href="font/FilsonSoftRegular.otf" media-type="application/vnd.ms-opentype" />
+		<item id="x1.png" href="image/1.png" media-type="image/png" properties="cover-image" />
+		<item id="x2.jpg" href="image/2.jpg" media-type="image/jpeg" />
+		<item id="Calluna_vulgaris_-heather--593311694.png" href="image/Calluna_vulgaris_%28heather%29-593311694.png" media-type="image/png" />
+		<item id="Calycanthus_floridus-473791724.png" href="image/Calycanthus_floridus-473791724.png" media-type="image/png" />
+		<item id="Cover_photo-483821340.png" href="image/Cover_photo-483821340.png" media-type="image/png" />
+		<item id="Forsythia_suspensa-491243129.png" href="image/Forsythia_suspensa-491243129.png" media-type="image/png" />
+		<item id="Logo_CMYK_Compact_Filled_Light.png" href="image/Logo_CMYK_Compact_Filled_Light.png" media-type="image/png" />
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="cover" linear="no" />
+		<itemref idref="ECGardens" />
+		<itemref idref="ECGardens-1" />
+		<itemref idref="ECGardens-2" />
+		<itemref idref="ECGardens-3" />
+		<itemref idref="ECGardens-4" />
+		<itemref idref="ECGardens-5" />
+	</spine>
+	<guide>
+		<reference type="cover" href="cover.xhtml" title="Cover" />
+		<reference type="toc" href="ECGardens-1.xhtml#_idContainer008" title="Table of Contents" />
+		<reference type="text" href="ECGardens-2.xhtml#_idContainer016" title="Beginning" />
+	</guide>
+</package>

@@ -1,0 +1,84 @@
+@charset "UTF-8";
+@font-face {
+	font-family: Sevillana;
+	src: url(../Fonts/Sevillana-Regular.ttf);
+}
+@font-face{
+	font-family:"Jenna Sue";
+	src:url(../Fonts/JennaSue.ttf);
+}
+@font-face{
+	font-family:Amatic;
+	src:url(../Fonts/AmaticSC-Regular.ttf);
+}
+body {
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+p{
+	text-indent:1.5em;
+	margin-bottom:.2em;
+	margin-top:0;
+}
+h1 {
+	font-family: Sevillana, cursive;
+	font-size: 200%;
+	margin-bottom: 1em;
+	page-break-before: always;
+	text-align: center;
+	border-bottom: .05em solid;
+	-webkit-hyphens: none !important;
+	hyphens: none;
+}
+.chapterNo {
+	display: block;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-weight: normal;
+	font-variant: small-caps;
+	font-size: .55em;
+	line-height: 1.8em;
+	letter-spacing:.355em;
+}
+h1#tocnav {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 200%;
+	margin-bottom: .3em;
+	page-break-before: always;
+	text-align: center;
+	border-bottom:none;
+}
+h2{
+	text-align:center;
+	font-weight:normal;
+}
+blockquote{
+	text-align:center;
+}
+.image{
+	text-align:center;
+}
+.watsonList{
+	font-family:JennaSue, cursive;
+	font-size:160%;
+}
+ol.watsonList li{
+	margin-bottom:.6em;
+}
+hr{
+	margin-bottom:1em;
+	margin-top:1em;
+}
+.scrawl{
+	font-family:Amatic, cursive;
+	font-size:200%;
+}
+.latin{
+	font-style:italic;
+	font-size:110%;
+}
+.italix{
+	font-style:italic;
+}
+.watson{
+	font-size:112%;
+	text-transform:uppercase;
+}
