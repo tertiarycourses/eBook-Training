@@ -1,6 +1,6 @@
 
 # Ebook Publishing and Distribution Essential Training
-## by [Tertiary Infotech Pte. Ltd](https://www.tertiarycourses.com.sg/)
+## by [Tertiary Courses](https://www.tertiarycourses.com.sg/)
 
 These are the exercise files used for [Ebook Publishing and Distribution Essential Training](https://www.tertiarycourses.com.sg/ebook-publishing-and-distribution-essential-training.html) course. 
 
